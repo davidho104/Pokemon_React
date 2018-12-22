@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-// import "../styles/navbar.css";
+// import "../styles/Navbar.css";
 
-export default class navbar extends Component {
+export default class Navbar extends Component {
     render(){
         return (
             <nav className="navbar navbar-default navbar-fixed-top">
@@ -12,6 +12,6 @@ export default class navbar extends Component {
                     Current Score: { this.props.score} | High Score: { this.props.highScore }
                 </div>
             </nav>
-        )
+        );
     }
 }
